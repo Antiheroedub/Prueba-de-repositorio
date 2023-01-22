@@ -1,0 +1,29 @@
+.titulo{
+	font-size: x-large;
+	width: 940px;
+	text-align: center;
+	padding: 80px 0 20px;
+}
+
+
+#itulo{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.principal{
+	/*width: 940px;
+	position: relative;
+	margin: 0 auto;
+	padding: 30px;*/
+	display: flex;
+  justify-content: flex-end;
+}
+
+.resultado{
+	width: 940px;
+	text-align: center;
+	padding: 80px 0 20px;
+	font-weight: bold;
+}

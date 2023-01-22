@@ -1,27 +1,32 @@
 <!DOCTYPE html>
-	<header>
-		<meta charset="UTF-8">
-		<script src=""></script>
-	</header>
-		<h1>
-			<center>
-				<input>Escribe el primer numero que quieres sumar</input>
-				<br>
-				<br>
-				<input> Escribe el segundo numero que quieres sumar</input>
-				<button1 id="boton1">SUMAR</button>
-				<button2 id="boton2">SUMAR</button>
-			</center>
-		</h1>
+	<html>
+		<header>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="reset.css">
+			<link rel="stylesheet" href="suma.css">
+		</header>
+			<h1>
+				<h2 class="titulo">Pagina de Sumas</h2>
+				<div class="principal">
+					<input id="1ernumero">  Escribe el primer numero que quieres sumar</input>
+					<br>
+					<br>
+					<input id="2donumero">  Escribe el segundo numero que quieres sumar</input>
+					<button id="boton1">SUMAR</button>
+				</div>
 
+				<div class="resultado">
+					<input id="resultado" placeholder="Resultado">
+				</div>
 
-			<script>
-				var numero1 = input.value
-
-				console.log (numero1)
-
-
-
-
-
-			</script>
+				<div>
+					<textarea id="inputText"></textarea>
+					<br>
+					<button id="encryptButton">Encriptar</button>
+					 <button id="decryptButton">Desencriptar</button>
+					 <br><br>
+					 <input type="text" id="resultInput" readonly>
+					 <button id="copyButton">Copiar Resultado</button>
+				</div>
+			</h1>
+	</html>
